@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>README</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; max-width: 1000px; margin: 0 auto; }
+        h1, h2, h3, h4, h5, h6 { margin-top: 24px; margin-bottom: 16px; }
+        a { color: #0366d6; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        code { background-color: #f6f8fa; padding: 0.2em 0.4em; border-radius: 3px; }
+        pre { background-color: #f6f8fa; padding: 16px; border-radius: 3px; overflow: auto; }
+        .error { color: red; background-color: #ffeeee; padding: 10px; border-left: 4px solid red; }
+        svg { max-width: 100%; height: auto; }
+    </style>
+</head>
+<body>
+    <h1>README</h1>
+    <h1>LLM Gateway Technical Architecture Documentation</h1>
+<h2>Overview</h2>
+<p>This documentation set provides a comprehensive technical architecture reference for the LLM Gateway system. It is intended for developers, architects, and technical teams responsible for maintaining, extending, and implementing new features in the codebase.</p>
+<p>The LLM Gateway is a sophisticated middleware platform that provides a unified interface for interacting with various Large Language Models (LLMs), handling authentication, routing, caching, and observability while providing enterprise-grade security and governance features.</p>
+<h2>Document Structure</h2>
+<p>This documentation is organized into the following sections:</p>
+<ol>
+<li><a href="./system-architecture-overview.md">System Architecture Overview</a> - High-level component breakdown and interaction patterns</li>
+<li><a href="./module-level-architecture.md">Module-Level Architecture</a> - Detailed analysis of each core module and package</li>
+<li><a href="./data-flow-storage-design.md">Data Flow and Storage Design</a> - Data processing workflows and persistence mechanisms</li>
+<li><a href="./runtime-behavior-concurrency.md">Runtime Behavior &amp; Concurrency</a> - Request handling, threading, and asynchronous patterns</li>
+<li><a href="./extension-points.md">Extension Points and Plug-In Strategy</a> - Interfaces and patterns for extending functionality</li>
+<li><a href="./domain-model.md">Domain Model and Business Logic</a> - Core business concepts and service implementations</li>
+<li><a href="./deployment-scaling.md">Deployment and Scaling Architecture</a> - Container configuration, scaling, and infrastructure</li>
+<li><a href="./observability-telemetry.md">Observability and Telemetry</a> - Logging, metrics, and monitoring approach</li>
+<li><a href="./security-architecture.md">Security Architecture</a> - Authentication, authorization, and data protection</li>
+<li><a href="./error-handling-resilience.md">Error Handling and Resilience</a> - Failure modes and recovery mechanisms</li>
+<li><a href="./api-reference.md">API Reference</a> - Detailed API specifications</li>
+</ol>
+<h2>Target Audience</h2>
+<p>This documentation is designed for technical stakeholders including:</p>
+<ul>
+<li><strong>Software Developers</strong>: Maintaining and extending the codebase</li>
+<li><strong>Software Architects</strong>: Understanding design decisions and system constraints</li>
+<li><strong>DevOps Engineers</strong>: Managing deployment and infrastructure</li>
+<li><strong>SRE Teams</strong>: Monitoring and maintaining system reliability</li>
+<li><strong>Security Engineers</strong>: Evaluating and enhancing security controls</li>
+</ul>
+<h2>Using This Documentation</h2>
+<ul>
+<li>Navigation between documents is supported through hyperlinks</li>
+<li>Mermaid diagrams are used throughout to visualize architecture and interactions</li>
+<li>UML stereotypes are applied for clear component classification</li>
+<li>Code references link directly to the relevant implementation</li>
+<li>Cross-references between sections help establish relationships</li>
+</ul>
+<h2>Related Resources</h2>
+<ul>
+<li><a href="../llm-gateway-api-development-guide/README.md">API Development Guide</a> - Developer-focused API documentation</li>
+<li><a href="../llm-gateway-operations/README.md">Operations Guide</a> - Operational procedures and infrastructure</li>
+<li><a href="../llm-gateway-product-docs/README.md">Product Documentation</a> - Product features and capabilities</li>
+</ul>
+<hr />
+<p><a href="./system-architecture-overview.md">Next: System Architecture Overview</a></p>
+</body>
+</html>
